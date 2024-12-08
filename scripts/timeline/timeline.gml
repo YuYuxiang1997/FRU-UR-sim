@@ -407,8 +407,8 @@ function init_mech() {
 				_cw = _cws[1]
 				break
 			case DEBUFF_ROLE.DPS_MED_FIRE:
-				_angle = _directions[2]
-				_cw = _cws[2]
+				_angle = _directions[6]
+				_cw = _cws[6]
 				break
 			case DEBUFF_ROLE.DPS_SHORT_FIRE_MED_UNHOLY:
 				_angle = _directions[3]
@@ -424,8 +424,8 @@ function init_mech() {
 				_cw = _cws[5]
 				break
 			case DEBUFF_ROLE.SUPPORT_MED_FIRE:
-				_angle = _directions[6]
-				_cw = _cws[6]
+				_angle = _directions[2]
+				_cw = _cws[2]
 				break
 			case DEBUFF_ROLE.SUPPORT_LONG_FIRE_UNHOLY:
 				_angle = _directions[7]
