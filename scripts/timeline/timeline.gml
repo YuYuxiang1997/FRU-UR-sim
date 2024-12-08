@@ -437,14 +437,14 @@ function init_mech() {
 }
 
 function reset() {
-	show_debug_message("reset called")
 	Obj_camera.state = 0
 	Obj_camera.global_time = 0
 	Obj_camera.play_speed = 1
-	for (var _i = 0; _i < 7; _i++) {
+	
+	for (var _i = 0; _i < array_length(Obj_camera.character_instances); _i++) {
 		Obj_camera.character_instances[_i].destroy = true
 	}
-	for (var _i = 0; _i < 8; _i++) {
+	for (var _i = 0; _i < array_length(Obj_camera.tower_instances); _i++) {
 		Obj_camera.tower_instances[_i].destroy = true
 	}
 	Obj_camera.character_instances = []
