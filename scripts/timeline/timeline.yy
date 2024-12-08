@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"timeline",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"timeline",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
